@@ -26,6 +26,7 @@ namespace Matrici_2
         private void Principal_Load(object sender, EventArgs e)
         {
            
+
         }
 
         private void Practice_Click(object sender, EventArgs e)
