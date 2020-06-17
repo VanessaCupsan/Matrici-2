@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Teaching)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Practice)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Quizz)).BeginInit();
@@ -115,6 +116,15 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "TESTARE";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(79, 49);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -123,6 +133,7 @@
             this.BackgroundImage = global::Matrici_2.Properties.Resources.coding;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1298, 523);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -152,6 +163,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
     }
 }
 
